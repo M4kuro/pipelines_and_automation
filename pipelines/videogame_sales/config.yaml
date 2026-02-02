@@ -1,0 +1,2 @@
+raw_path: data/raw/vgsales.csv
+output_path: data/processed/vgsales_fact.csv
