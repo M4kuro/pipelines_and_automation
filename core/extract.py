@@ -7,4 +7,4 @@ def extract_csv(path: str) -> pd.DataFrame:
     if not file_path.exists():
         raise FileNotFoundError(f"File not found: {path}")
 
-    return pd.read_csv(file_path) # type: ignore
+    return pd.read_csv(file_path) 
